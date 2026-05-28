@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+<title>Gallery</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Наши моменты 📸</h1>
+
+<div class="gallery">
+
+<img src="{{ url_for('static', filename='images/1.jpg') }}" class="photo">
+
+<img src="{{ url_for('static', filename='images/2.jpg') }}" class="photo">
+
+<img src="{{ url_for('static', filename='images/3.jpg') }}" class="photo">
+    <img src="{{ url_for('static', filename='images/4.jpg') }}" class="photo">
+</div>
+
+<br><br>
+
+<a href="/home" class="card">
+Назад
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>
+<div class="counter">
+    Мы вместе уже <span>{{ days }}</span> дней ❤️
+</div>

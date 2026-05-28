@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+<title>Privet</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Наше будущее 🌙</h1>
+
+<p>
+помнишь что я написал в той валентинке?
+</p>
+
+<img
+src="{{ url_for('static', filename='images/vale.jpg') }}"
+class="photo"
+>
+
+<br><br>
+
+<a href="/home" class="card">
+Назад
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>
