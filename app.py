@@ -4,10 +4,10 @@ from datetime import date
 app = Flask(__name__)
 app.secret_key = "love_secret_key"
 
-PASSWORD = "14.12.006"
+PASSWORD = "14.12.2006"
 
 # ❤️ ДАТА НАЧАЛА ОТНОШЕНИЙ (поменяй на свою)
-START_DATE = date(2025, 1, 4)
+START_DATE = date(2026, 1, 4)
 
 
 @app.route("/", methods=["GET", "POST"])
