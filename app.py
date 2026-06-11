@@ -4,7 +4,7 @@ from datetime import date
 app = Flask(__name__)
 app.secret_key = "love_secret_key"
 
-PASSWORD = "14.01.2006"
+PASSWORD = "14.12.006"
 
 # ❤️ ДАТА НАЧАЛА ОТНОШЕНИЙ (поменяй на свою)
 START_DATE = date(2025, 1, 4)
